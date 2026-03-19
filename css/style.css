@@ -99,8 +99,11 @@ div img{
 
 /*media query for dark colors*/
 @media (prefers-color-scheme: dark) {
-  .theme-a.adaptive {
-    background: #775533;
+    h1{
+        color: yellowgreen;
+    }
+    body {
+    background-color: #775533;
     color: #ddccbb;
     outline: 5px dashed black;
   }
@@ -109,6 +112,8 @@ div img{
     border-color: black;
   }
 }
+
+
 
 
 
